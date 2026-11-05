@@ -22,3 +22,7 @@ venv/
 .ruff_cache/
 .mypy_cache/
 target/
+# Scaffold runtime (local caches and temp files)
+.scaffold-runtime/
+.venv/
+.mmm-uv-probe/

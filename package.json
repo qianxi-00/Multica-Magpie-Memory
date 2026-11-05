@@ -1,0 +1,16 @@
+{
+  "name": "multica-magpie-memory-hooks",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "files": [".hooks.mjs"],
+  "scripts": {
+    "check": "node --check .hooks.mjs"
+  },
+  "magpie": {
+    "hooks": "./.hooks.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
